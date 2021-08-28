@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Survey Kids Rights</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Imgs/favicon (1).ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-KyZXEAg3QhqLMpG+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div id="header"><header><b>KIND</b> Survey Form</header></div>
+    <div id="background">
+    <h1 id="title">Please Fill the following Form</h1>
+    <p id="description">Bellow is a survery about what type of volunteers KIND organization will be getting</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name : </label>
+        <input type="text" placeholder="Type your name Here" id="name">
+        <label for="name" id="name-label">Last Name : </label>
+        <input type="text" placeholder="Type your name Here" id="name">
+        <label for="email" id="email-label">Email : </label>
+        <input type="email" placeholder="Johndoe@gmail.com" id="email">
+        <label for="number" id="number-label">Phone Number:</label>
+        <input type="tel" name="number" id="number" pattern="[0]{1}[2-7]{1}[0-9]{8}" placeholder="0123456789"> 
+        <div><label for="Birth date">Birth Date :</label><input type="date"></div>
+        <div><br>
+            <label for="Wilaya">Select your Region :</label>
+        <select name="wilaya" id="Select">
+        <option value="0" disabled>--Please Select your Region--</option>
+        <option value="1">ADRAR</option>
+        <option value="2">CHLEF</option>
+        <option value="3">LAGHOUAT</option>
+        <option value="4">O.E.BOUAGHI</option>
+        <option value="5">BATNA</option>
+        <option value="">BEJAIA</option>
+        <option value="7">BISKRA</option>
+        <option value="8">BECHAR</option>
+        <option value="9">BLIDA</option>
+        <option value="10">BOUIRA</option>
+        <option value="11">TAMANRASSET</option>
+        <option value="12">TEBESSA</option>
+        <option value="13">TLEMCEN</option>
+        <option value="14">TIARET</option>
+        <option value="15">TIZI OUZOU</option>
+        <option value="16">ALGER</option>
+        <option value="17">DJELFA</option>
+        <option value="18">JIJEL</option>
+        <option value="19">SETIF</option>
+        <option value="20">SAIDA</option>
+        <option value="21">SKIKDA</option>
+        <option value="22">SIDI BEL ABBES</option>
+        <option value="23">ANNABA</option>
+        <option value="24">GUELMA</option>
+        <option value="25">CONSTANTINE</option>
+        <option value="26">MEDEA</option>
+        <option value="27">MOSTAGANEM</option>
+        <option value="28">M’SILA</option>
+        <option value="29">MASCARA</option>
+        <option value="30">OUARGLA</option>
+        <option value="31">ORAN</option>
+        <option value="32">EL-BAYADH</option>
+        <option value="33">ILLIZI</option>
+        <option value="34">B.B.ARRERIDJ</option>
+        <option value="35">BOUMERDES</option>
+        <option value="36">EL TARF</option>
+        <option value="37">TINDOUF</option>
+        <option value="38">TISSEMSILT</option>
+        <option value="39">EL OUED</option>
+        <option value="40">KHENCHELA</option>
+        <option value="41">SOUK AHRAS</option>
+        <option value="42">TIPAZA</option>
+        <option value="43">MILA</option>
+        <option value="44">AIN DEFLA</option>
+        <option value="45">NAAMA</option>
+        <option value="46">A.TEMOUCHENT</option>
+        <option value="47">GHARDAIA</option>
+        <option value="48">RELIZANE</option>
+        </select> <br></div>
+        <div> <p>What type of Health Professional are you</p>
+            <input type="radio" name="job" id="job"> 
+            <label for="job">Doctor</label> <br>
+            <input type="radio" name="job" id="job">
+            <label for="job">Nurse</label> <br>
+            <input type="radio" name="job" id="job">
+            <label for="job">Medical Student</label> <br>
+            <input type="radio" name="job" id="job">
+            <label for="job">Surgeon</label>
+        </div>
+        <br>
+        <label for="lol">How did you find out about KIND?</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="friend">Friends</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="social media">Social Media</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="other organizations">Other Organizations</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="internet forums">Internet Forums</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="newsletters">Newsletters</label>
+        <div>
+            <p>Give Us Feedback :</p>
+            <textarea name="contact" id="contact" cols="30" rows="10">Feedback</textarea>
+        </div>
+        <button id="submit-button">Submit</button>
+
+
+        
+        
+    </form>
+    </div>
+</body>
+</html>

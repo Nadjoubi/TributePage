@@ -1,0 +1,37 @@
+:root {
+  background-color: #9fa8a3;
+}
+form {
+  position: relative;
+  left: 3vw;
+}
+#background {
+  background-color: #e3e0cf;
+  width: 60vw;
+  margin: auto;
+}
+#header {
+  background: #c5d5cb;
+  width: 100vw;
+  height: 20vh;
+}
+header {
+  padding: 3vmax;
+  font-size: 200%;
+  border: 5px double beige;
+}
+#Select {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5%;
+  text-transform: capitalize;
+  font-size: 1.3vmax;
+}
+label {
+  display: block;
+}
+
+#title #description {
+  position: relative;
+  left: 3vw;
+}
